@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Oct  5 22:40:41 2016
-
-@author: Martin Isaksson
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
