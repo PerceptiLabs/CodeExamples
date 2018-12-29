@@ -47,7 +47,6 @@ def gradient_descent(X, y, theta, alpha, num_iters):
     rate alpha
     '''
     m = y.size
-    J_history = zeros(shape=(num_iters, 1))
 
     for i in range(num_iters):
 
@@ -64,9 +63,7 @@ def gradient_descent(X, y, theta, alpha, num_iters):
 
             theta[it][0] = theta[it][0] - alpha * (1.0 / m) * errors_x1.sum()
 
-        J_history[i, 0] = compute_cost(X, y, theta)
-
-    return theta, J_history
+    return theta
 
 #Load the dataset
 data = loadtxt('ex1data1.txt', delimiter=',')
@@ -100,7 +97,7 @@ alpha = 0.01
 cost=compute_cost(it, y, theta)
 print(cost)
 
-theta, J_history = gradient_descent(it, y, theta, alpha, iterations)
+theta = gradient_descent(it, y, theta, alpha, iterations)
 
 print(theta)
 #Predict values for population sizes of 35,000 and 70,000
