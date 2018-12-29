@@ -29,6 +29,6 @@ Here we are providing three different versions of Linear regression:
 
 2. Simple Linear Regression using SGD
 
-3. Multiple Linear Regression using SGD
+3. Multi-variable Linear Regression using SGD
 
 Here we are using the Insurance Dataset for 1., Wine Dataset for 2. and ex1data1 Dataset for 3.
