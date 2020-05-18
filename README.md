@@ -1,34 +1,47 @@
-# CodeExamples
-We have put together some examples of different well known machine learning algorithms. This is to make it easier to understand how it looks like when working with machine learning in code. 
+[![PerceptiLabs](./pl_logo.png)](https://www.perceptilabs.com/home)
 
-The code is written as easy-to-understand and to play with, rather than for efficiency.
+# PerceptiLabs Machine Learning CodeExamples
+We have put together code examples for some of the well-known machine learning algorithms discussed in our [Machine Learning Handbook](https://www.perceptilabs.com/resources/handbook). The handbook is a free resource that you can download and use to become more familiar with approaches like linear regression, decision trees, k-nearest neighbor, support vector machines (SVMs), clustering, and of course, neural networks. The handbook goes into the architecture and math behind these powerful algorithms.
+
+We provide Python examples for the following machine learning algorithms in this repo:
+
+* [Neural Network](#neural-network)
+* [K-means](#k-means)
+* [Decision Tree Classification](#decision-tree-classification)
+* [Linear Regression](#linear-regression)
 
 Happy hacking!
 
-# Neural Network
-Play around with this code if you want to understand how to build neural networks only using numpy.
-This is great to get a better understanding of how it works when training a neural network.
+## Neural Network
 
-In this code we are using the MNIST Dataset, which is a dataset containing image data of images of handwritten digits. 
-Each sample with a corresponding label.
+Play around with this code if you want to understand how to build neural networks using [NumPy](https://numpy.org/).
 
-# Kmeans
-Use Kmeans clustering in its most common form, with seeding or with seeding and/or constraint.
+This is a great way to better understand how it works when training a neural network.
 
-In this code we are using the dataset IRIS, which is easy to play around with for this task.
+In this example we are using the [MNIST Dataset](http://yann.lecun.com/exdb/mnist/), which is a dataset containing image data of handwritten digits ranging from 0 through 9.
 
-# Decision Tree Classification
-You can use Decision tree for classification, it is using the Gini index for split.
+Note that each sample has a corresponding label.
 
-In this code we are using the Bank Dataset, which can easily be replaced in the code.
+## K-means
+Use K-means clustering in its most common form, with seeding and/or constraints.
 
-# Linear Regression
-Here we are providing three different versions of Linear regression:
+In this code example we are using the [IRIS dataset](https://archive.ics.uci.edu/ml/datasets/iris), which is easy to play around with for this task.
+
+## Decision Tree Classification
+You can use decision trees for classification, using the Gini index for the split.
+
+In this code example we are using the Bank Dataset ([data_banknote_authentication.csv](./data_banknote_authentication.csv), which can easily be replaced with another dataset.
+
+## Linear Regression
+Here we are providing three different versions of linear regression:
 
 1. Simple Linear Regression
-
 2. Simple Linear Regression using SGD
-
 3. Multi-variable Linear Regression using SGD
 
-Here we are using the Insurance Dataset for 1., Wine Dataset for 2. and ex1data1 Dataset for 3.
+In this example we are using the Insurance Dataset ([insurance.csv](./insurance.csv)) for 1., Wine Dataset for 2. and [ex1data1](./ex1data1.txt) Dataset for 3.
+
+
+# Community
+
+Got questions, feedback, or want to join a community of machine learning practitioners working with exciting tools and projects? Check out our [Community page](https://www.perceptilabs.com/community)!
