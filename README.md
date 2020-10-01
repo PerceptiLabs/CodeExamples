@@ -1,4 +1,8 @@
-[![PerceptiLabs](./pl_logo.png)](https://www.perceptilabs.com/home)
+<p align="center">
+  <a href="https://www.perceptilabs.com">
+  <img src="./pl_logo.png">
+  </a>
+</p>
 
 # PerceptiLabs Machine Learning CodeExamples
 We have put together code examples for some of the well-known machine learning algorithms discussed in our [Machine Learning Handbook](https://www.perceptilabs.com/resources/handbook). The handbook is a free resource that you can download and use to become more familiar with approaches like linear regression, decision trees, k-nearest neighbor, support vector machines (SVMs), clustering, and of course, neural networks. The handbook goes into the architecture and math behind these powerful algorithms.
